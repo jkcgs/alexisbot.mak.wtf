@@ -8,6 +8,7 @@ page_lang: es
 lang: es_CL
 repo_url: https://github.com/jkcgs/alexis-bot/
 page_repo_url: https://github.com/jkcgs/alexisbot.mak.wtf/
+bot_invite: https://discordapp.com/oauth2/authorize?client_id=397855139005988864&scope=bot
 social:
   name: Makzk
   links:
