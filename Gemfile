@@ -5,7 +5,6 @@ gem "jekyll", "~> 4.0.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag", "~> 2.6"
-  gem "jekyll-fontawesome-svg"
 end
 
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
