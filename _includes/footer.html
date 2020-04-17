@@ -1,0 +1,15 @@
+<footer class="site-footer container">
+  <data class="u-url" href="{{ "/" }}"></data>
+  <hr />
+  <p>
+    {{ site.title | escape }} 
+    &copy; {{ 'now' | date: "%Y" }} 
+    {{ site.author | default: site.title | escape }}<br>
+    {{- site.description | escape -}}<br>
+    <a href="{{ site.page_repo_url }}" target="_blank">Site source</a><br>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+      <img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+    </a>
+  </p>
+
+</footer>

@@ -1,0 +1,27 @@
+title: AlexisBot
+author: Makzk
+email: alexisbot@mak.wtf
+description: >-
+  Un bot multiuso para Discord creado en Chile.
+url: "https://alexisbot.mak.wtf"
+page_lang: es
+lang: es_CL
+repo_url: https://github.com/jkcgs/alexis-bot/
+page_repo_url: https://github.com/jkcgs/alexisbot.mak.wtf/
+social:
+  name: Makzk
+  links:
+    - https://twitter.com/makzk_
+    - https://github.com/jkcgs
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
