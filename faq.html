@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>AlexisBot by makzk</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation" aria-label="main navigation">
+    <a class="navbar-brand" href="#">AlexisBot</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Comandos</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Acerca de</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container mt-3">
+    <h3>FAQ</h3>
+    <p>Recuerda no colocar los símbolos <code>&lt;</code> y <code>&gt;</code>, son para indicar que
+      ahí debes reemplazar con lo que se indica.</p>
+    <ul>
+      <li><b>¿Cómo cambiar el prefijo?</b> Por defecto es <code>!</code>, y se puede cambiar 
+        con <code>@AlexisBot prefix /</code> si es que quieres usar <code>/comandos</code> así.</li>
+      <li><b>¿Cómo activo el starboard?</b> Tiene varias opciones, pero lo para partir, utiliza 
+        <code>!starboard channel #canal</code> para definir el canal donde llegarán los mensajes, y con
+        <code>!starboard count 10</code> para que los mensajes con 10 o más reacciones de un mismo
+        emoji aparezcan en el starboard.</li>
+      <li><b>¿Cómo activo los mensajes de bienvenida y despedida?</b> Prueba con <code>!welcome</code>
+        y <code>!goodbye</code>.</li>
+      <li><b>¿Cómo banear y kickear miembros?</b> Con <code>!realban @usuario/id &lt;motivo de ban&gt;</code> 
+        y <code>!kick @usuario/id &lt;motivo de kick&gt;</code>. Si es posible, se le enviará a la persona
+        un mensaje con el motivo de expulsión. Recuerda que el bot debe tener permisos para ban y kick.</li>
+      <li><b>¿Cómo mutear gente?</b> El mute sólo le asigna un rol a los usuarios, ya sea hasta que se
+        muteen temporalmente, o hasta desmutear temporalmente. Primero, crea un rol, por ejemplo "Muted", y
+        luego asegúrate de que el bot podrá asignarlo. Luego, usa el comando <code>!mutedrole Muted</code>
+        para definir que ese rol se utilizará para mutear gente. Ese rol deberá evitar que los users a
+        mutear puedan hablar en los canales que quieras que tome efecto el mute. Por último, con
+        <code>!mute &lt;@user/id&gt; 10m</code> para mutear a alguien por 10 minutos. Por supuesto, puedes
+        utilizar otros tiempos como 1h, 2h30m, 30s, y así. Puedes no asignar un tiempo, para después desmutear
+        a la persona con <code>!unmute &lt;@user/id&gt;</code>.</li>
+    </ul>
+  </div>
+</body>
+</html>
