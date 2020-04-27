@@ -6,12 +6,6 @@ permalink: /faq/
 
 Recuerda no colocar los símbolos `<` y `>`, son para indicar que ahí debes reemplazar con lo que se indica.
 
-* **¿Cómo cambiar el prefijo?** Por defecto es `!`, y se puede cambiar
-    con `@AlexisBot prefix /` si es que quieres usar `/comandos` así.</li>
-* **¿Cómo activo el starboard?** Tiene varias opciones, pero lo para partir, utiliza 
-    `!starboard channel #canal` para definir el canal donde llegarán los mensajes, y con
-    `!starboard count 10` para que los mensajes con 10 o más reacciones de un mismo
-    emoji aparezcan en el starboard.
 * **¿Cómo cambiar el prefijo?** Por defecto es `!`, y se puede cambiar 
     con `@AlexisBot prefix /` si es que quieres usar `/comandos` así.
 * **¿Cómo activo el starboard?** Tiene varias opciones, pero lo para partir, utiliza 
